@@ -1,0 +1,229 @@
+@media (min-width: 576px) {
+  .container {
+    max-width: 500px;
+  }
+  .banner_content {
+    padding: 1rem 5rem;
+  }
+  .banner_footer_content {
+    justify-content: space-between;
+  }
+
+  /* gamer_section */
+  .gamer_content {
+    max-width: 480px;
+    margin: 40px auto;
+  }
+  .play_initially_thumb_inner {
+    position: absolute;
+    bottom: -40px;
+    left: -40px;
+    width: 200px;
+  }
+  .social_link {
+    row-gap: 50px;
+    column-gap: 120px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+  .brand_logo {
+    margin-bottom: 2rem;
+  }
+  .menu_bar > li {
+    margin-bottom: 25px;
+  }
+  .menu_bar > li:nth-child(2) {
+    margin-bottom: 35px;
+  }
+  .banner_section {
+    background-size: 100%;
+    background-position: bottom left -50px;
+  }
+
+  .banner_content {
+    padding: 1.875rem 11rem;
+  }
+  .banner_footer_content {
+    justify-content: space-between;
+  }
+  .banner_footer_content .btn-primary {
+    padding: 1.25rem 2.5rem;
+  }
+  .banner_thumb {
+    padding: 0 80px;
+  }
+  .banner_thumb img {
+    display: block;
+    margin: 0 auto;
+  }
+  .banner_subheading {
+    font-size: 3rem;
+  }
+  .banner_heading {
+    font-size: 7rem;
+  }
+
+  /* videos_section  */
+  .videos_section .videos_item {
+    width: calc(100% / 2 - 20px);
+  }
+
+  .play_initially_thumb_inner {
+    position: absolute;
+    bottom: -60px;
+    left: -60px;
+    width: 300px;
+  }
+
+  .sponsor_items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .social_link {
+    row-gap: 50px;
+    column-gap: 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+  /* header section  */
+  .nav_bar {
+    flex-direction: row;
+  }
+  .menu_bar > li {
+    margin-right: 32px;
+  }
+  .brand_logo {
+    margin-bottom: 0;
+  }
+  .menu_bar {
+    flex-direction: row;
+  }
+  .menu_bar .nav_link,
+  .menu_bar > li:nth-child(2) {
+    margin-bottom: 0;
+  }
+
+  .banner_section {
+    background-size: 80%;
+    background-position: bottom left -80%;
+  }
+  .banner_section .container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 25px;
+  }
+  .banner_thumb {
+    padding: 0;
+    width: calc(100% / 2);
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .banner_content {
+    padding: 100px 50px;
+    width: calc(100% / 2);
+  }
+  .banner_subheading {
+    font-size: 2.5rem;
+  }
+  .banner_heading {
+    font-size: 6rem;
+  }
+  .banner_footer_content {
+    justify-content: start;
+  }
+  /* gamer_section */
+
+  .gamer_section {
+    padding: 40px 0;
+  }
+  .gamer_section .section_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .gamer_content {
+    text-align: right;
+  }
+  .gamer_content .btn-primary {
+    margin-bottom: 30px;
+  }
+
+  /* videos_section  */
+  .videos_section .videos_item {
+    width: calc(100% / 4 - 20px);
+  }
+  .play_initially {
+    padding: 0 100px;
+  }
+  .play_initially .section_header {
+    max-width: 400px;
+    padding: 80px;
+  }
+
+  .play_initially .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .play_initially_thumb_inner {
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    width: 180px;
+  }
+
+  .play_initially_thumb {
+    max-width: 50%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .play_initially {
+    margin-bottom: 50px;
+  }
+
+  .sponsor_items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+  .banner_content {
+    padding: 100px 90px;
+  }
+  .play_initially_thumb_inner {
+    position: absolute;
+    bottom: -80px;
+    left: -80px;
+    width: 300px;
+  }
+  .play_initially {
+    margin-bottom: 150px;
+  }
+  .play_initially .section_header {
+    max-width: 500px;
+  }
+  .sponsor_items {
+    grid-template-columns: repeat(5, 1fr);
+    place-self: center;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
