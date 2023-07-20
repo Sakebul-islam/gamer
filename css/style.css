@@ -34,6 +34,7 @@ li {
 }
 button {
   border-color: transparent;
+  cursor: pointer;
 }
 
 /* common css  */
